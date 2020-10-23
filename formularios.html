@@ -8,25 +8,42 @@
     <body>
         <h2>Inscripcion gimnasio</h2>
         <form>
-            <label>Nombre</label>
+            <div> <label>Nombre</label>
                 <input type="text" autocomplete="name" required minlength="2" maxlength="20">
-            <label>Apellidos</label>
+            </div>
+            <div>
+                <label>Apellidos</label>
                 <input type="text" autocomplete="family-name" required minlength="2" maxlength="20">
-            <label>Correo electronico</label>
+            </div>
+            <div>
+                <label>Apellidos</label>
+                <input type="text" autocomplete="family-name" required minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label>Correo electronico</label>
                 <input type="text"  autocomplete="email" required minlength="6" maxlength="255">
-            <label>DNI/CUIL/CUIT</label>
-                <input type="text" required minlength="8" maxlength="11" pattern="\d{8,11}">  
-            <label>Altura (cm)</label>
+            </div>
+            <div>
+                <label>DNI/CUIL/CUIT</label>
+                <input type="text" required minlength="8" maxlength="11" pattern="\d{8,11}"> 
+            </div>
+             <div>
+                  <label>Altura (cm)</label>
                 <input type="number" required minlength="0" step="1">
-            <label>Peso (kg)</label>
+             </div>
+             <div>
+                  <label>Peso (kg)</label>
                 <input type="number" required minlength="0" step="0.1">
-            <label>Edad</label>
+             </div>
+             <div>
+                 <label>Edad</label>
                 <input type="number" required minlength="0" maxlength="100" step="1">
-        </form>
-        <button type="submit">
-            Enviar
-        </button>
-            
-        </form>
+             </div> 
+            </form>
+             <div>
+                <button type="submit">
+                            Enviar
+                        </button>
+             </div>
     </body>
 </html>
